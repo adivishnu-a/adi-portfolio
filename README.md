@@ -20,16 +20,6 @@ My personal portfolio website showcasing my skills, projects, and professional e
 - Contact form
 - Modern UI with shadcn components
 
-## Development
-
-```bash
-# Install dependencies
-npm install
-
-# Run development server
-npm run dev
-```
-
 ## License
 
 Feel free to use this code as inspiration for your own portfolio!
