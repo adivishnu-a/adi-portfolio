@@ -9,7 +9,7 @@ const experiences = [
   {
     title: 'Product Development Intern',
     company: 'Darwinbox',
-    period: 'Jan 2024 - Present',
+    period: 'Jan 2025 - Present',
     description: 'Working on innovative HR tech solutions at one of India\'s leading HR technology companies. Contributing to product development and enhancement.',
     skills: ['JavaScript', 'React', 'UI/UX', 'Product Development'],
     logo: 'https://ik.imagekit.io/cowboypanda/4mOW-9q3_400x400-removebg-preview.png?updatedAt=1741930719728'
