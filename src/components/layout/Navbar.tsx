@@ -103,7 +103,7 @@ const Navbar = () => {
           {/* Resume Button (Desktop) */}
           <div className="hidden md:block">
             <a
-              href="https://drive.google.com/file/d/1U0f4DJBwUUYmskoTDoWfnCq9GBYyemMV/view?usp=sharing" // Add link to your resume
+              href="https://drive.google.com/file/d/1FwER4RkQUflD2vl6VxsgaOooyMf-hUlH/view?usp=sharing" // Add link to your resume
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-sm py-2"
@@ -154,7 +154,7 @@ const Navbar = () => {
             </a>
           ))}
           <a
-            href="https://drive.google.com/file/d/1U0f4DJBwUUYmskoTDoWfnCq9GBYyemMV/view?usp=sharing" // Add link to your resume
+            href="https://drive.google.com/file/d/1FwER4RkQUflD2vl6VxsgaOooyMf-hUlH/view?usp=sharing" // Add link to your resume
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary mt-4"
