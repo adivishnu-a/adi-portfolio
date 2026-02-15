@@ -60,10 +60,10 @@ const Navbar = () => {
   return (
     <header
       className={cn(
-        'fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out px-4 py-3',
+        "fixed top-0 left-0 right-0 z-50 transition-all duration-300 ease-in-out px-4 py-3",
         isScrolled
-          ? 'bg-white/80 backdrop-blur-md shadow-sm'
-          : 'bg-transparent'
+          ? "bg-white/80 backdrop-blur-md shadow-sm"
+          : "bg-transparent",
       )}
     >
       <div className="container mx-auto">
@@ -73,9 +73,9 @@ const Navbar = () => {
             href="#home"
             className="text-xl font-bold text-foreground transition-colors hover:text-primary"
           >
-            <span className="font-mono">{'<'}</span>
+            <span className="font-mono">{"<"}</span>
             <span className="text-primary">Adi</span>
-            <span className="font-mono">{'/>'}</span>
+            <span className="font-mono">{"/>"}</span>
           </a>
 
           {/* Desktop Navigation */}
@@ -89,10 +89,10 @@ const Navbar = () => {
                   scrollToSection(item.href.substring(1));
                 }}
                 className={cn(
-                  'nav-link text-sm',
+                  "nav-link text-sm",
                   activeSection === item.href.substring(1)
-                    ? 'text-primary font-medium after:scale-x-100 after:origin-bottom-left'
-                    : ''
+                    ? "text-primary font-medium after:scale-x-100 after:origin-bottom-left"
+                    : "",
                 )}
               >
                 {item.name}
@@ -103,7 +103,7 @@ const Navbar = () => {
           {/* Resume Button (Desktop) */}
           <div className="hidden md:block">
             <a
-              href="https://drive.google.com/file/d/1FwER4RkQUflD2vl6VxsgaOooyMf-hUlH/view?usp=sharing" // Add link to your resume
+              href="https://drive.google.com/file/d/1aDkHibQs-m1k_Jq2bpoSX3KA714xCT9M/view?usp=sharing" // Add link to your resume
               target="_blank"
               rel="noopener noreferrer"
               className="btn-primary text-sm py-2"
@@ -130,8 +130,8 @@ const Navbar = () => {
       {/* Mobile Navigation */}
       <div
         className={cn(
-          'fixed inset-0 top-[57px] z-40 bg-white/90 backdrop-blur-lg transition-transform duration-300 ease-in-out md:hidden',
-          mobileMenuOpen ? 'translate-x-0' : 'translate-x-full'
+          "fixed inset-0 top-[57px] z-40 bg-white/90 backdrop-blur-lg transition-transform duration-300 ease-in-out md:hidden",
+          mobileMenuOpen ? "translate-x-0" : "translate-x-full",
         )}
       >
         <nav className="flex flex-col items-center justify-center h-full space-y-8 py-8">
@@ -144,17 +144,17 @@ const Navbar = () => {
                 scrollToSection(item.href.substring(1));
               }}
               className={cn(
-                'text-lg font-medium transition-colors',
+                "text-lg font-medium transition-colors",
                 activeSection === item.href.substring(1)
-                  ? 'text-primary'
-                  : 'text-foreground hover:text-primary'
+                  ? "text-primary"
+                  : "text-foreground hover:text-primary",
               )}
             >
               {item.name}
             </a>
           ))}
           <a
-            href="https://drive.google.com/file/d/1FwER4RkQUflD2vl6VxsgaOooyMf-hUlH/view?usp=sharing" // Add link to your resume
+            href="https://drive.google.com/file/d/1aDkHibQs-m1k_Jq2bpoSX3KA714xCT9M/view?usp=sharing" // Add link to your resume
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary mt-4"
